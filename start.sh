@@ -7,8 +7,6 @@ build() {
     cp -r $FOLDER_PATH/UniQuizzes/* $FOLDER_PATH
     cp -r $FOLDER_PATH/JSQuizee/index.html $FOLDER_PATH
     cp -r $FOLDER_PATH/JSQuizee/js/main.js $FOLDER_PATH/js
-    rm -rf $FOLDER_PATH/UniQuizzes
-    rm -rf $FOLDER_PATH/JSQuizee
     
     touch $FOLDER_PATH/.gitignore
     echo "*" > .gitignore 
